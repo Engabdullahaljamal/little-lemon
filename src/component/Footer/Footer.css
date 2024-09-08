@@ -1,0 +1,101 @@
+footer {
+    padding: 50px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004d00;
+    color: white;
+    letter-spacing: 1.5px;
+    gap: 170px;
+    flex-wrap: wrap-reverse;
+
+
+}
+
+footer img {
+    width: 60px;
+    transform: rotate(15deg);
+}
+
+
+
+footer .copy_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .copy_container span {
+    border-bottom: 1px dashed white;
+    padding: 10px;
+    min-width: max-content;
+}
+
+footer p {
+    font-size: 12px;
+    color: rgb(113, 103, 103);
+    min-width: max-content;
+    letter-spacing: 0.3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer img:last-child {
+    transform: rotate(-40deg);
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.contact_footer,
+.contact_footer_icon {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px !important;
+
+
+}
+
+.contact_footer_icon {
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 25px;
+
+}
+
+.contact_footer_icon svg {
+    font-size: 25px;
+}
+
+.contact_footer p {
+    font-size: 18px !important;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.contact_footer svg {
+    color: white;
+    margin-right: 10px;
+    font-size: 18px !important;
+}
+
+.s_m_a {
+    color: white;
+    font-size: 18px !important;
+}
+
+
+@media screen and (max-width:1100px) {
+    footer {
+        gap: 60px;
+    }
+}

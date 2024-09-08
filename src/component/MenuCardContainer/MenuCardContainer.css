@@ -1,0 +1,10 @@
+.menu_card_container {
+    background-color: rgb(234, 229, 229);
+    padding: 100px 0px;
+}
+
+.title-text-center {
+    text-align: center;
+    font-size: 25px;
+    color: darkgreen;
+}

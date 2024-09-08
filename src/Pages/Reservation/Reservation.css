@@ -1,0 +1,79 @@
+.reservation {
+    padding: 100px 30px;
+
+    background-color: rgb(234, 229, 229);
+}
+
+
+.reservation form {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.inputs_container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs_container input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(234, 229, 229);
+    margin: 15px 0px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline-color: darkgreen;
+    border: 1px solid gray;
+}
+
+.reservation .button_con {
+    width: 100%;
+    text-align: center;
+}
+
+.reservation button {
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    min-width: max-content !important;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px) {
+    .reservation form {
+        flex-direction: column;
+        width: 100%;
+        gap: 0px;
+    }
+
+    .reservation form .inputs_container {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:575px) {
+    nav {
+        height: max-content;
+        padding: 12px;
+
+    }
+
+    nav ul {
+        gap: 20px;
+
+    }
+}
