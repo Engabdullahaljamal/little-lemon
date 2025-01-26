@@ -54,6 +54,10 @@ nav ul li a {
     font-size: 20px;
 }
 
+nav ul li a:hover {
+    color: rgb(248, 224, 3) !important;
+}
+
 .active-link {
-    color: yellow;
+    color: rgb(248, 224, 3);
 }
